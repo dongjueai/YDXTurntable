@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505B8604EDCF5BA7FC460374 /* libPods-YDXTurntable.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F16B8AAD082AC70EADBAF645 /* libPods-YDXTurntable.a */; };
+		C74592E31DE93D07008A9677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C74592E21DE93D07008A9677 /* main.m */; };
+		C74592E61DE93D07008A9677 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C74592E51DE93D07008A9677 /* AppDelegate.m */; };
+		C74592EC1DE93D07008A9677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74592EA1DE93D07008A9677 /* Main.storyboard */; };
+		C74592EE1DE93D07008A9677 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74592ED1DE93D07008A9677 /* Assets.xcassets */; };
+		C74592F11DE93D07008A9677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74592EF1DE93D07008A9677 /* LaunchScreen.storyboard */; };
+		C745930C1DE955A1008A9677 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C74593041DE955A1008A9677 /* NavigationViewController.m */; };
+		C745930D1DE955A1008A9677 /* TurntableViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C74593061DE955A1008A9677 /* TurntableViewController1.m */; };
+		C745930E1DE955A1008A9677 /* TurntableViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C74593081DE955A1008A9677 /* TurntableViewController2.m */; };
+		C745930F1DE955A1008A9677 /* TurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C745930B1DE955A1008A9677 /* TurntableView.m */; };
+		C74593181DE957C5008A9677 /* 2_0000_up.png in Resources */ = {isa = PBXBuildFile; fileRef = C74593111DE957C5008A9677 /* 2_0000_up.png */; };
+		C74593191DE957C5008A9677 /* qiandao_0000_000.png in Resources */ = {isa = PBXBuildFile; fileRef = C74593121DE957C5008A9677 /* qiandao_0000_000.png */; };
+		C745931A1DE957C5008A9677 /* qiandao_0001_001.png in Resources */ = {isa = PBXBuildFile; fileRef = C74593131DE957C5008A9677 /* qiandao_0001_001.png */; };
+		C745931B1DE957C5008A9677 /* qiandao_0002_003.png in Resources */ = {isa = PBXBuildFile; fileRef = C74593141DE957C5008A9677 /* qiandao_0002_003.png */; };
+		C745931C1DE957C5008A9677 /* qiandao_0003_01.png in Resources */ = {isa = PBXBuildFile; fileRef = C74593151DE957C5008A9677 /* qiandao_0003_01.png */; };
+		C745931D1DE957C5008A9677 /* qiandao_0004_02.png in Resources */ = {isa = PBXBuildFile; fileRef = C74593161DE957C5008A9677 /* qiandao_0004_02.png */; };
+		C745931E1DE957C5008A9677 /* qiandao_0008_yy.png in Resources */ = {isa = PBXBuildFile; fileRef = C74593171DE957C5008A9677 /* qiandao_0008_yy.png */; };
+		C7FE09261DE96FA60045A22D /* 2000.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FE09251DE96FA60045A22D /* 2000.png */; };
+		C7FE092E1DE98C7C0045A22D /* turntable.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C7FE092D1DE98C7C0045A22D /* turntable.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		692F3AC67D1B017A5DCFD522 /* Pods-YDXTurntable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDXTurntable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YDXTurntable/Pods-YDXTurntable.debug.xcconfig"; sourceTree = "<group>"; };
+		C24657FC38B6485CEA830E70 /* Pods-YDXTurntable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDXTurntable.release.xcconfig"; path = "Pods/Target Support Files/Pods-YDXTurntable/Pods-YDXTurntable.release.xcconfig"; sourceTree = "<group>"; };
+		C74592DE1DE93D07008A9677 /* YDXTurntable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDXTurntable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C74592E21DE93D07008A9677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C74592E41DE93D07008A9677 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C74592E51DE93D07008A9677 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C74592EB1DE93D07008A9677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C74592ED1DE93D07008A9677 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C74592F01DE93D07008A9677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C74592F21DE93D07008A9677 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C74593031DE955A1008A9677 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		C74593041DE955A1008A9677 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		C74593051DE955A1008A9677 /* TurntableViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableViewController1.h; sourceTree = "<group>"; };
+		C74593061DE955A1008A9677 /* TurntableViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableViewController1.m; sourceTree = "<group>"; };
+		C74593071DE955A1008A9677 /* TurntableViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableViewController2.h; sourceTree = "<group>"; };
+		C74593081DE955A1008A9677 /* TurntableViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableViewController2.m; sourceTree = "<group>"; };
+		C745930A1DE955A1008A9677 /* TurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableView.h; sourceTree = "<group>"; };
+		C745930B1DE955A1008A9677 /* TurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableView.m; sourceTree = "<group>"; };
+		C74593111DE957C5008A9677 /* 2_0000_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2_0000_up.png; sourceTree = "<group>"; };
+		C74593121DE957C5008A9677 /* qiandao_0000_000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0000_000.png; sourceTree = "<group>"; };
+		C74593131DE957C5008A9677 /* qiandao_0001_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0001_001.png; sourceTree = "<group>"; };
+		C74593141DE957C5008A9677 /* qiandao_0002_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0002_003.png; sourceTree = "<group>"; };
+		C74593151DE957C5008A9677 /* qiandao_0003_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0003_01.png; sourceTree = "<group>"; };
+		C74593161DE957C5008A9677 /* qiandao_0004_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0004_02.png; sourceTree = "<group>"; };
+		C74593171DE957C5008A9677 /* qiandao_0008_yy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qiandao_0008_yy.png; sourceTree = "<group>"; };
+		C7FE09251DE96FA60045A22D /* 2000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2000.png; sourceTree = "<group>"; };
+		C7FE092D1DE98C7C0045A22D /* turntable.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turntable.jpeg; sourceTree = "<group>"; };
+		F16B8AAD082AC70EADBAF645 /* libPods-YDXTurntable.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YDXTurntable.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C74592DB1DE93D06008A9677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505B8604EDCF5BA7FC460374 /* libPods-YDXTurntable.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60164D641DA482B865309A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F16B8AAD082AC70EADBAF645 /* libPods-YDXTurntable.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C74592D51DE93D06008A9677 = {
+			isa = PBXGroup;
+			children = (
+				C74593011DE955A1008A9677 /* Class */,
+				C74592E01DE93D07008A9677 /* YDXTurntable */,
+				C74592DF1DE93D07008A9677 /* Products */,
+				C87F39005189440E0ECA65A1 /* Pods */,
+				60164D641DA482B865309A10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C74592DF1DE93D07008A9677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C74592DE1DE93D07008A9677 /* YDXTurntable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C74592E01DE93D07008A9677 /* YDXTurntable */ = {
+			isa = PBXGroup;
+			children = (
+				C74592E41DE93D07008A9677 /* AppDelegate.h */,
+				C74592E51DE93D07008A9677 /* AppDelegate.m */,
+				C74592EA1DE93D07008A9677 /* Main.storyboard */,
+				C74592ED1DE93D07008A9677 /* Assets.xcassets */,
+				C74592EF1DE93D07008A9677 /* LaunchScreen.storyboard */,
+				C74592F21DE93D07008A9677 /* Info.plist */,
+				C74592E11DE93D07008A9677 /* Supporting Files */,
+			);
+			path = YDXTurntable;
+			sourceTree = "<group>";
+		};
+		C74592E11DE93D07008A9677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C74592E21DE93D07008A9677 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C74593011DE955A1008A9677 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C74593021DE955A1008A9677 /* Controller */,
+				C74593091DE955A1008A9677 /* View */,
+				C74593101DE957C5008A9677 /* Pictuer */,
+			);
+			name = Class;
+			path = YDXTurntable/Class;
+			sourceTree = "<group>";
+		};
+		C74593021DE955A1008A9677 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C74593031DE955A1008A9677 /* NavigationViewController.h */,
+				C74593041DE955A1008A9677 /* NavigationViewController.m */,
+				C74593051DE955A1008A9677 /* TurntableViewController1.h */,
+				C74593061DE955A1008A9677 /* TurntableViewController1.m */,
+				C74593071DE955A1008A9677 /* TurntableViewController2.h */,
+				C74593081DE955A1008A9677 /* TurntableViewController2.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C74593091DE955A1008A9677 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C745930A1DE955A1008A9677 /* TurntableView.h */,
+				C745930B1DE955A1008A9677 /* TurntableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C74593101DE957C5008A9677 /* Pictuer */ = {
+			isa = PBXGroup;
+			children = (
+				C7FE092D1DE98C7C0045A22D /* turntable.jpeg */,
+				C7FE09251DE96FA60045A22D /* 2000.png */,
+				C74593111DE957C5008A9677 /* 2_0000_up.png */,
+				C74593121DE957C5008A9677 /* qiandao_0000_000.png */,
+				C74593131DE957C5008A9677 /* qiandao_0001_001.png */,
+				C74593141DE957C5008A9677 /* qiandao_0002_003.png */,
+				C74593151DE957C5008A9677 /* qiandao_0003_01.png */,
+				C74593161DE957C5008A9677 /* qiandao_0004_02.png */,
+				C74593171DE957C5008A9677 /* qiandao_0008_yy.png */,
+			);
+			path = Pictuer;
+			sourceTree = "<group>";
+		};
+		C87F39005189440E0ECA65A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				692F3AC67D1B017A5DCFD522 /* Pods-YDXTurntable.debug.xcconfig */,
+				C24657FC38B6485CEA830E70 /* Pods-YDXTurntable.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C74592DD1DE93D06008A9677 /* YDXTurntable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C74592F51DE93D07008A9677 /* Build configuration list for PBXNativeTarget "YDXTurntable" */;
+			buildPhases = (
+				8021F5CD68E6783E7E39D52F /* [CP] Check Pods Manifest.lock */,
+				C74592DA1DE93D06008A9677 /* Sources */,
+				C74592DB1DE93D06008A9677 /* Frameworks */,
+				C74592DC1DE93D06008A9677 /* Resources */,
+				1AEBD9695C4D7C5503406D4C /* [CP] Embed Pods Frameworks */,
+				1DA16FBE1A048723FFC5C524 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YDXTurntable;
+			productName = YDXTurntable;
+			productReference = C74592DE1DE93D07008A9677 /* YDXTurntable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C74592D61DE93D06008A9677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = YDX;
+				TargetAttributes = {
+					C74592DD1DE93D06008A9677 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3MMN2BQU4H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C74592D91DE93D06008A9677 /* Build configuration list for PBXProject "YDXTurntable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C74592D51DE93D06008A9677;
+			productRefGroup = C74592DF1DE93D07008A9677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C74592DD1DE93D06008A9677 /* YDXTurntable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C74592DC1DE93D06008A9677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C745931D1DE957C5008A9677 /* qiandao_0004_02.png in Resources */,
+				C745931A1DE957C5008A9677 /* qiandao_0001_001.png in Resources */,
+				C74593191DE957C5008A9677 /* qiandao_0000_000.png in Resources */,
+				C745931E1DE957C5008A9677 /* qiandao_0008_yy.png in Resources */,
+				C74592F11DE93D07008A9677 /* LaunchScreen.storyboard in Resources */,
+				C74593181DE957C5008A9677 /* 2_0000_up.png in Resources */,
+				C74592EE1DE93D07008A9677 /* Assets.xcassets in Resources */,
+				C745931C1DE957C5008A9677 /* qiandao_0003_01.png in Resources */,
+				C74592EC1DE93D07008A9677 /* Main.storyboard in Resources */,
+				C745931B1DE957C5008A9677 /* qiandao_0002_003.png in Resources */,
+				C7FE09261DE96FA60045A22D /* 2000.png in Resources */,
+				C7FE092E1DE98C7C0045A22D /* turntable.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AEBD9695C4D7C5503406D4C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YDXTurntable/Pods-YDXTurntable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DA16FBE1A048723FFC5C524 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YDXTurntable/Pods-YDXTurntable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8021F5CD68E6783E7E39D52F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C74592DA1DE93D06008A9677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74592E61DE93D07008A9677 /* AppDelegate.m in Sources */,
+				C74592E31DE93D07008A9677 /* main.m in Sources */,
+				C745930F1DE955A1008A9677 /* TurntableView.m in Sources */,
+				C745930E1DE955A1008A9677 /* TurntableViewController2.m in Sources */,
+				C745930D1DE955A1008A9677 /* TurntableViewController1.m in Sources */,
+				C745930C1DE955A1008A9677 /* NavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C74592EA1DE93D07008A9677 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74592EB1DE93D07008A9677 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C74592EF1DE93D07008A9677 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C74592F01DE93D07008A9677 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C74592F31DE93D07008A9677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C74592F41DE93D07008A9677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C74592F61DE93D07008A9677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 692F3AC67D1B017A5DCFD522 /* Pods-YDXTurntable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3MMN2BQU4H;
+				INFOPLIST_FILE = YDXTurntable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016.YDXTurntable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C74592F71DE93D07008A9677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24657FC38B6485CEA830E70 /* Pods-YDXTurntable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3MMN2BQU4H;
+				INFOPLIST_FILE = YDXTurntable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-016.YDXTurntable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C74592D91DE93D06008A9677 /* Build configuration list for PBXProject "YDXTurntable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74592F31DE93D07008A9677 /* Debug */,
+				C74592F41DE93D07008A9677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C74592F51DE93D07008A9677 /* Build configuration list for PBXNativeTarget "YDXTurntable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C74592F61DE93D07008A9677 /* Debug */,
+				C74592F71DE93D07008A9677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C74592D61DE93D06008A9677 /* Project object */;
+}
