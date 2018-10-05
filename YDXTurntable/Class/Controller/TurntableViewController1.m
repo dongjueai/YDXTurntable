@@ -73,7 +73,7 @@
         
         turnAngle = 315;
         self.labelText = self.turntable.numberArray[1];
-        NSLog(@"抽中了2000");
+        NSLog(@"抽中了5000");
         
     } else if(randomNum >=60 && randomNum<80){
         
@@ -83,7 +83,7 @@
             turnAngle = 270;
         }
         self.labelText = self.turntable.numberArray[2];
-        NSLog(@"抽中了5000");
+        NSLog(@"抽中了2000");
         
     }else{
         
